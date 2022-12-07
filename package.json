@@ -4,7 +4,7 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html"
+    "dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "parcel": "^2.2.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^17.0.2",
