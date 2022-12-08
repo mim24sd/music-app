@@ -1,5 +1,5 @@
-const Music = () => {
+const MusicItem = () => {
   return <div></div>;
 };
 
-export default Music;
+export default MusicItem;
