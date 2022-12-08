@@ -1,5 +1,5 @@
-const Songs = () => {
+const Singles = () => {
   return <div></div>;
 };
 
-export default Songs;
+export default Singles;
