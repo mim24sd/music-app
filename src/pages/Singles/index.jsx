@@ -1,11 +1,7 @@
 import Header from "../../components/Header";
 
 const Singles = () => {
-  return (
-    <div>
-      <Header title="Singles" />
-    </div>
-  );
+  return <Header title="Singles" />;
 };
 
 export default Singles;
