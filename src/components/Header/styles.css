@@ -3,6 +3,6 @@
   margin-bottom: var(--space-md);
 }
 
-.horizontal-line {
-  border: var(--space-xxs) solid var(--primaryFontColor);
+.header-container {
+  border-bottom: var(--space-xxs) solid var(--primaryFontColor);
 }
