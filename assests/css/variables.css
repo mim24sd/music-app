@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  /* colors */
+  --backgroundPrimaryColor: #373737;
+
+  --primaryFontColor: #f2f2f2;
+
+  /* sizes */
+  --size-unit: 1em;
+  --size-sm: calc(0.75 * var(--size-unit));
+  --size-md: calc(1 * var(--size-unit));
+  --size-lg: calc(1.3 * var(--size-unit));
+  --size-xl: calc(2 * var(--size-unit));
+  --size-xxl: calc(2.5 * var(--size-unit));
+  --size-xxxl: calc(3 * var(--size-unit));
+
+  /* spacing sizes */
+  --space-unit: 16px;
+  --space-xxxs: calc(0.0625 * var(--space-unit));
+  --space-xxs: calc(0.125 * var(--space-unit));
+  --space-xs: calc(0.25 * var(--space-unit));
+  --space-sm: calc(0.5 * var(--space-unit));
+  --space-md: calc(1 * var(--space-unit));
+  --space-lg: calc(1.5 * var(--space-unit));
+  --space-xl: calc(2 * var(--space-unit));
+  --space-xxl: calc(2.5 * var(--space-unit));
+  --space-xxxl: calc(3 * var(--space-unit));
+
+  /* fonts */
+  --primaryFont: "Roboto", sans-serif;
+}

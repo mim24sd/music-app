@@ -1,0 +1,19 @@
+@import "./assests/css/variables.css";
+@import "./assests/css/reset.css";
+
+.root {
+  min-height: 100vh;
+  background-color: var(--backgroundPrimaryColor);
+}
+
+h1,
+a,
+p,
+input {
+  font-family: var(--primaryFont);
+  color: var(--primaryFontColor);
+}
+
+a {
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.title {
+  font-size: var(--size-xl);
+  padding: var(--space-md) 0;
+}
+
+.horizontal-line {
+  border: var(--space-xxs) solid var(--primaryFontColor);
+}

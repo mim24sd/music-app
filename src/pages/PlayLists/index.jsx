@@ -1,5 +1,7 @@
+import Header from "../../components/Header";
+
 const PlayLists = () => {
-  return <div></div>;
+  return <Header title="New Albums and Songs" />;
 };
 
 export default PlayLists;
