@@ -1,0 +1,7 @@
+@import "../../../assests/css/variables.css";
+
+.main-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: var(--space-md);
+}

@@ -1,5 +1,5 @@
 const MusicList = () => {
-  return <div></div>;
+  return <p>I'm a musiclist</p>;
 };
 
 export default MusicList;
