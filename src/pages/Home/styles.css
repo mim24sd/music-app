@@ -2,6 +2,8 @@
 
 .main-container {
   display: grid;
-  grid-template-columns: 20% 80%;
-  padding: var(--space-md);
+  grid-template-columns: 15% 70%;
+  gap: 2%;
+  place-content: center;
+  padding: var(--space-lg);
 }
