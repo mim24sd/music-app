@@ -2,15 +2,15 @@ import Header from "../../components/Header";
 import PlayListsComponent from "../../components/PlayLists";
 import Sidebar from "../../components/Sidebar";
 
+import "./styles.css";
+
 const PlayLists = () => {
   return (
-    <div className="main-container">
+    <main className="main">
       <Sidebar />
-      <div>
-        <Header title="Playlists" />
-        <PlayListsComponent />
-      </div>
-    </div>
+      <Header title="Playlists" />
+      <PlayListsComponent />
+    </main>
   );
 };
 

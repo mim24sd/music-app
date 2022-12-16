@@ -1,6 +1,20 @@
 @import "./assests/css/reset.css";
-@import "./src/main.css";
+@import "./assests/css/variables.css";
 
-@import "./src/components/Header/styles.css";
+.root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--backgroundPrimaryColor);
+}
 
-@import "./src/pages/Home/styles.css";
+h1,
+a,
+p,
+input {
+  font-family: var(--primaryFont);
+  color: var(--primaryFontColor);
+}
+
+a {
+  cursor: pointer;
+}

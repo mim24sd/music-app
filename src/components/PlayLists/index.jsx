@@ -1,5 +1,7 @@
+import "./styles.css";
+
 const PlayLists = () => {
-  return <p>I'm a playlist</p>;
+  return <p>Playlists</p>;
 };
 
 export default PlayLists;

@@ -1,5 +1,7 @@
+import "./styles.css";
+
 const MusicItem = () => {
-  return <div></div>;
+  return <p>MusicItem</p>;
 };
 
 export default MusicItem;
