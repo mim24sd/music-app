@@ -1,7 +1,17 @@
 import Header from "../../components/Header";
+import PlayListsComponent from "../../components/PlayLists";
+import Sidebar from "../../components/Sidebar";
+
+import "./styles.css";
 
 const PlayLists = () => {
-  return <Header title="New Albums and Songs" />;
+  return (
+    <main className="main">
+      <Sidebar />
+      <Header title="Playlists" />
+      <PlayListsComponent />
+    </main>
+  );
 };
 
 export default PlayLists;

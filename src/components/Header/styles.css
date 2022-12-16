@@ -1,8 +1,11 @@
+@import "../../../assests/css/variables.css";
+
 .title {
   font-size: var(--size-xl);
-  padding: var(--space-md) 0;
+  margin-bottom: var(--space-md);
 }
 
-.horizontal-line {
-  border: var(--space-xxs) solid var(--primaryFontColor);
+.header {
+  grid-area: header;
+  border-bottom: var(--space-xxs) solid var(--primaryFontColor);
 }

@@ -1,5 +1,7 @@
+import "./styles.css";
+
 const MusicList = () => {
-  return <div></div>;
+  return <p className="list">Musicalist</p>;
 };
 
 export default MusicList;

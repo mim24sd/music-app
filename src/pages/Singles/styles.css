@@ -1,0 +1,23 @@
+@import "../../../assests/css/variables.css";
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "sidebar header header"
+    "sidebar list list";
+  column-gap: var(--space-md);
+  row-gap: var(--space-sm);
+  place-content: center;
+  padding: var(--space-sm);
+}
+
+@media only screen and (min-device-width: 600px) {
+  .main {
+    grid-template-columns: repeat(7, 12%);
+    grid-template-areas:
+      "sidebar header header header header header header"
+      "sidebar list list list list list list";
+    padding: var(--space-sm) 0;
+  }
+}

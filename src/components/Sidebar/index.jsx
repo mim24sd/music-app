@@ -1,5 +1,7 @@
+import "./styles.css";
+
 const Sidebar = () => {
-  return <div></div>;
+  return <p className="sidebar">Sidebar</p>;
 };
 
 export default Sidebar;

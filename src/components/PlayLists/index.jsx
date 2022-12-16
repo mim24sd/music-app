@@ -1,5 +1,7 @@
+import "./styles.css";
+
 const PlayLists = () => {
-  return <div></div>;
+  return <p>Playlists</p>;
 };
 
 export default PlayLists;
