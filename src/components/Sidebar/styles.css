@@ -1,3 +1,11 @@
+@import "../../../assests/css/variables.css";
+
 .sidebar {
   grid-area: sidebar;
+  display: grid;
+  place-items: center;
+  gap: 1em;
+  padding: var(--space-xxl) 0;
+  color: var(--primaryFontColor);
+  font-size: var(--size-lg);
 }
