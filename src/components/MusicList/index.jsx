@@ -1,7 +1,7 @@
 import "./styles.css";
 
 const MusicList = () => {
-  return <p className="list">Musicalist</p>;
+  return <p className="list">Musiclist</p>;
 };
 
 export default MusicList;
