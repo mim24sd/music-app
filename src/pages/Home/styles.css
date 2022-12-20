@@ -3,7 +3,6 @@
 .main {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-auto-rows: 1fr;
   grid-template-areas:
     "sidebar header header header header header header header header header"
     "sidebar list list list list list list list list list"
