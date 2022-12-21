@@ -4,11 +4,14 @@ import "./styles.css";
 
 const PlayLists = () => {
   const playlistsItems = playlistsData.playlists.items;
-  const playlists = playlistsItems.map((playlistsItem) => (
-    <PlayListsItem details={playlistsItem} />
-  ));
 
-  return <ul class="playlists">{playlists}</ul>;
+  return (
+    <ul class="playlists">
+      {playlistsItems.map((playlistsItem) => (
+        <PlayListsItem details={playlistsItem} />
+      ))}
+    </ul>
+  );
 };
 
 export default PlayLists;
