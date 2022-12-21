@@ -1,4 +1,4 @@
-@import "../../../assests/css/variables.css";
+@import "../../assests/css/variables.css";
 
 .container {
   grid-area: sidebar;

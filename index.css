@@ -1,5 +1,5 @@
-@import "./assests/css/reset.css";
-@import "./assests/css/variables.css";
+@import "./src/assests/css/reset.css";
+@import "./src/assests/css/variables.css";
 
 body {
   background-color: var(--backgroundPrimaryColor);

@@ -1,5 +1,5 @@
 import PlayListsItem from "../PlayListItem/index.jsx";
-import playlistsData from "../../../assests/json/playlists.json";
+import playlistsData from "../../assests/json/playlists.json";
 import "./styles.css";
 
 const PlayLists = () => {
