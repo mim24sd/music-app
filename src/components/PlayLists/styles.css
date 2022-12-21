@@ -1,3 +1,8 @@
-.list {
+@import "../../assests/css/variables.css";
+
+.playlists {
   grid-area: list;
+  display: grid;
+  row-gap: var(--space-xl);
+  padding: var(--space-xl) 0;
 }
