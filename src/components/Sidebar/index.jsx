@@ -5,14 +5,17 @@ const Sidebar = () => {
   return (
     <nav className="container">
       <ul className="sidebar">
-        <li>
+        <li key="playlists">
           <Link to="/playlists">Playlists</Link>
         </li>
-        <li>
+        <li key="singles">
           <Link to="/singles">Singles</Link>
         </li>
-        <li>
+        <li key="albums">
           <Link to="/albums">Albums</Link>
+        </li>
+        <li key="home">
+          <Link to="/">Home</Link>
         </li>
       </ul>
     </nav>

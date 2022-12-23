@@ -9,7 +9,7 @@ const Albums = () => {
     <main className="main">
       <Sidebar />
       <Header title="Albums" />
-      <MusicList />
+      <MusicList type="album" />
     </main>
   );
 };
