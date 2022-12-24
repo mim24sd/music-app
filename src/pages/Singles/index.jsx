@@ -9,7 +9,7 @@ const Singles = () => {
     <main className="main">
       <Sidebar />
       <Header title="Singles" />
-      <MusicList />
+      <MusicList type="single" />
     </main>
   );
 };

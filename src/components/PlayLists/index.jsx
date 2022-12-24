@@ -6,7 +6,7 @@ const PlayLists = () => {
   const playlistsItems = playlistsData.playlists.items;
 
   return (
-    <ul class="playlists">
+    <ul className="playlists">
       {playlistsItems.map((playlistsItem) => (
         <PlayListsItem details={playlistsItem} />
       ))}

@@ -1,0 +1,14 @@
+@import "../../assests/css/variables.css";
+
+.music-container {
+  padding: var(--space-md);
+}
+
+.music-image {
+  width: 100%;
+  height: auto;
+}
+
+.music-title {
+  padding: var(--space-sm) 0;
+}
