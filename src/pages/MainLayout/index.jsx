@@ -1,17 +1,19 @@
+import { Children } from "react";
 import Header from "../../components/Header";
 import MusicList from "../../components/MusicList";
+import PlayLists from "../../components/PlayLists";
 import Sidebar from "../../components/Sidebar";
 
 import "./styles.css";
 
-const Home = () => {
+const MainLayout = ({ title, children }) => {
   return (
     <main className="main">
       <Sidebar />
-      <Header title="New albums and singles" />
-      <MusicList />
+      <Header title={title} />
+      {children}
     </main>
   );
 };
 
-export default Home;
+export default MainLayout;
