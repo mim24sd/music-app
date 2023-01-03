@@ -1,23 +1,44 @@
 import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import MusicList from "./components/MusicList";
+import PlayLists from "./components/PlayLists";
+import MainLayout from "./pages/MainLayout";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home title="New albums and singles" />} />
+        <Route
+          path="/"
+          element={
+            <MainLayout title="New albums and singles">
+              <MusicList />
+            </MainLayout>
+          }
+        />
         <Route
           path="/singles"
-          element={<Home content={"single"} title="Singles" />}
+          element={
+            <MainLayout title="Singles">
+              <MusicList type="single" />
+            </MainLayout>
+          }
         />
         <Route
           path="/albums"
-          element={<Home content={"album"} title="Albums" />}
+          element={
+            <MainLayout title="Albums">
+              <MusicList type="album" />
+            </MainLayout>
+          }
         />
         <Route
           path="/playlists"
-          element={<Home content={"playlists"} title="Playlists" />}
+          element={
+            <MainLayout title="Playlists">
+              <PlayLists />
+            </MainLayout>
+          }
         />
       </Routes>
     </BrowserRouter>
